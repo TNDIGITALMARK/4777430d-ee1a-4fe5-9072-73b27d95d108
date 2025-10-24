@@ -2,7 +2,7 @@
 
 import { Navigation } from '@/components/navigation'
 import { WhatsAppButton } from '@/components/whatsapp-button'
-import { Scissors, Sparkles, Razor, Award, Crown, Zap, Star, Check } from 'lucide-react'
+import { Scissors, Sparkles, Award, Crown, Zap, Star, Check } from 'lucide-react'
 import Link from 'next/link'
 
 export default function ServicosPage() {
@@ -34,7 +34,7 @@ export default function ServicosPage() {
       ]
     },
     {
-      icon: Razor,
+      icon: Scissors,
       name: 'Barba & Corte',
       price: 'R$ 75',
       duration: '45 min',

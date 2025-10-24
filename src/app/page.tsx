@@ -2,7 +2,7 @@
 
 import { Navigation } from '@/components/navigation'
 import { WhatsAppButton } from '@/components/whatsapp-button'
-import { Scissors, Sparkles, Razor, Award, Calendar, Clock, MapPin, Instagram, Phone } from 'lucide-react'
+import { Scissors, Sparkles, Award, Calendar, Clock, MapPin, Instagram, Phone } from 'lucide-react'
 import Link from 'next/link'
 
 export default function HomePage() {
@@ -20,7 +20,7 @@ export default function HomePage() {
       price: 'R$ 35'
     },
     {
-      icon: Razor,
+      icon: Scissors,
       title: 'Barba & Corte',
       description: 'Combo premium com tratamento',
       price: 'R$ 75'
